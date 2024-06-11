@@ -1,0 +1,59 @@
+# Игнорирование файла test.py
+test_file.py
+
+
+# Игнорирование файлов sample_collection
+sample_collection.metadata.json
+sample_collection.bson
+
+# Игнорирование файла .env
+.env
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Файлы окружения
+venv/
+env/
+.venv/
+.env/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Конфигурационные файлы
+.python-version
+
+# Файлы и каталоги сборки
+build/
+dist/
+*.egg-info/
+
+# Базы данных
+*.sqlite3
+*.db
+*.sql
+
+# Данные
+data/
+*.csv
+*.tsv
+
+# Файлы конфигураций
+config.yaml
+settings_local.py
+
+.venv/
